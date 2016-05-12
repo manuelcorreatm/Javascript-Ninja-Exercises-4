@@ -1,0 +1,27 @@
+﻿.container {
+    width: 960px;
+}
+
+#notes {
+    float: left;
+    width: 50%;
+    margin-left: 50px;
+}
+
+#notes label {
+    margin: 10px;
+}
+
+#notes button {
+    margin: 10px;
+}
+
+#editor {
+    float:right;
+    width: 40%;
+}
+
+#editor input[type="text"], #editor textarea{
+    display: block;
+    margin: 10px;
+}

@@ -1,0 +1,19 @@
+﻿#container {
+    height: 600px;
+    background-color: darkgray;
+}
+
+#container div {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#container #editor {
+    float:right;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 5px dashed black;
+}
