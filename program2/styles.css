@@ -1,6 +1,7 @@
 ﻿#container {
     height: 600px;
     background-color: darkgray;
+    width: 50%;
 }
 
 #container div {
@@ -10,10 +11,32 @@
     border: 1px solid black;
 }
 
-#container #editor {
+#wrapper #editor {
     float:right;
-    height: 200px;
-    width: 200px;
+    clear: both;
+    height: 300px;
+    width: 40%;
     background-color: white;
     border: 5px dashed black;
+}
+
+#editor div {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#controls {
+    float: right;
+    clear: both;
+    margin-top: 10px;
+    margin-right: 5%;
+}
+
+#wrapper > h2 {
+    float: right;
+    clear: both;
+    margin-top: 10px;
+    margin-right: 15%;
 }

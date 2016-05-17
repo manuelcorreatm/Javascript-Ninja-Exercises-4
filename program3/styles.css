@@ -1,0 +1,46 @@
+﻿@keyframes spinning {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(720deg);
+    }
+}
+
+#container #controls {
+    width: 300px;
+    margin: auto;
+}
+
+#container #letterContainer {
+    width: 700px;
+    margin: auto;
+}
+
+#container #letterContainer span {
+    display:inline-block;
+    font-size: 3em;
+    margin: 50px;
+}
+
+#container #letterContainer .spinning {
+    animation-name: spinning;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+#letterContainer #letter1 {
+    animation-duration: 1s;
+}
+#letterContainer #letter2 {
+    animation-duration: 2s;
+}
+#letterContainer #letter3 {
+    animation-duration: 3s;
+}
+#letterContainer #letter4 {
+    animation-duration: 8s;
+}
+#letterContainer #letter5 {
+    animation-duration: 16s;
+}
