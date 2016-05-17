@@ -54,7 +54,8 @@ window.onload = function () {
     
     assert(true, "Outside and after the test block A");
     test("TestBlock B", function(){
-        setTimeout(function(){assert(true, "test delayed B");}, 500);
+        setTimeout(function () { assert(true, "test delayed BA"); }, 2500);
+        setTimeout(function () { assert(true, "test delayed B"); }, 1500);
     });
     assert(true, "Outside and after test block B");
     
